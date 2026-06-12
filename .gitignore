@@ -1,0 +1,7 @@
+# Ignore the generated SQLite database
+*.db
+*.db-journal
+*.db-wal
+
+# Ignore application logs
+*.log
