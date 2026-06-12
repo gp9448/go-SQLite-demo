@@ -1,0 +1,89 @@
+{
+    "ProtoReaderBundles": [
+        {
+            "Id": 1,
+            "reader_id": "reader-001",
+            "site_id": "site-A",
+            "sent_timestamp_ms": 1678886400000,
+            "ProtoReads": [
+                {
+                    "Id": 101,
+                    "ProtoReaderBundleId": 1,
+                    "timestamp_ns": 1678886400123456789,
+                    "confidence": 0.95,
+                    "antenna_id": "antenna-1",
+                    "antenna_type": "RFID",
+                    "x": 10.5,
+                    "y": 20.3,
+                    "item_id": "item-abc-123",
+                    "floor_id": "floor-1"
+                },
+                {
+                    "Id": 102,
+                    "ProtoReaderBundleId": 1,
+                    "timestamp_ns": 1678886400987654321,
+                    "confidence": 0.88,
+                    "antenna_id": "antenna-2",
+                    "antenna_type": "RFID",
+                    "x": 12.1,
+                    "y": 22.7,
+                    "item_id": "item-def-456",
+                    "floor_id": "floor-1"
+                }
+            ]
+        },
+        {
+            "Id": 2,
+            "reader_id": "reader-002",
+            "site_id": "site-B",
+            "sent_timestamp_ms": 1678887500000,
+            "ProtoReads": [
+                {
+                    "Id": 201,
+                    "ProtoReaderBundleId": 2,
+                    "timestamp_ns": 1678887500123456789,
+                    "confidence": 0.99,
+                    "antenna_id": "antenna-3",
+                    "antenna_type": "RFID",
+                    "x": 30.2,
+                    "y": 40.8,
+                    "item_id": "item-ghi-789",
+                    "floor_id": "floor-2"
+                }
+            ]
+        },
+        {
+            "Id": 3,
+            "reader_id": "reader-001",
+            "site_id": "site-A",
+            "sent_timestamp_ms": 1678888600000,
+            "ProtoReads": [
+                {
+                    "Id": 301,
+                    "ProtoReaderBundleId": 3,
+                    "timestamp_ns": 1678888600123456789,
+                    "confidence": 0.76,
+                    "antenna_id": "antenna-1",
+                    "antenna_type": "RFID",
+                    "x": 15.0,
+                    "y": 25.5,
+                    "item_id": "item-jkl-012",
+                    "floor_id": "floor-1"
+                },
+                {
+                    "Id": 302,
+                    "ProtoReaderBundleId": 3,
+                    "timestamp_ns": 1678888600987654321,
+                    "confidence": 0.91,
+                    "antenna_id": "antenna-1",
+                    "antenna_type": "RFID",
+                    "x": 15.2,
+                    "y": 25.9,
+                    "item_id": "item-mno-345",
+                    "floor_id": "floor-1"
+                }
+            ]
+        }
+    ]
+}
+
